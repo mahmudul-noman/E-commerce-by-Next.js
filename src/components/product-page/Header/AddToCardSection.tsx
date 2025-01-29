@@ -9,9 +9,15 @@ const AddToCardSection = ({ data }: { data: Product }) => {
   const [quantity, setQuantity] = useState<number>(1);
 
   return (
-    <div className="fixed md:relative w-full border-t md:border-none border-black/5 bottom-0 left-0 p-4 md:p-0 z-10 flex items-center justify-between sm:justify-start md:justify-center">
-      <CartCounter onAdd={setQuantity} onRemove={setQuantity} />
-      <AddToCartBtn data={{ ...data, quantity }} />
+    <div className="w-full p-4 md:p-2 z-10 flex items-center justify-between sm:justify-start md:justify-center border-t md:border-none border-black/5">
+      {/* Adjust layout for mobile (fixed) and desktop (relative) */}
+      <div className="w-full md:relative flex items-center justify-between">
+        {/* Cart Counter */}
+        <CartCounter onAdd={setQuantity} onRemove={setQuantity} />
+
+        {/* Add to Cart Button */}
+        <AddToCartBtn data={{ ...data, quantity }} />
+      </div>
     </div>
   );
 };
