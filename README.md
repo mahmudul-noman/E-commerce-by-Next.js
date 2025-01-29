@@ -26,10 +26,6 @@ Explore the product data used in this project via the **Fake Store API**, which 
 - **API Endpoint**: [Fake Store API](https://fakestoreapi.com/products)  
 - **Documentation**: [API Documentation](https://fakestoreapi.com/docs)  
 
-## Demo API
-
-
-
 ## Features
 
 - **Next.js 14**: Provides server-side rendering (SSR), static site generation (SSG), optimized routing, and seamless API integration.
