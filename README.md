@@ -4,8 +4,11 @@ E-commerce by Next.js is an open-source project designed to transform modern e-c
 
 ## Table of Contents
 
+## Table of Contents  
+
 - [Overview](#overview)
-- [Demo](#demo)
+- [Live Demo](#demo)
+- [Demo API](#demo-api)  
 - [Features](#features)
 - [Technologies](#technologies)
 - [Installation](#installation)
@@ -16,9 +19,16 @@ E-commerce by Next.js is an open-source project designed to transform modern e-c
 
 E-commerce by Next.js bridges the gap between design and development by implementing best practices for **performance optimization**, and **accessibility**. The project offers a highly customizable starting point for developers building e-commerce solutions.
 
-## Demo
+## Demo API  
 
-Experience the live demo: [E-commerce by Next.js ](https://ecommerce-nextjs-mhn.vercel.app/)
+Explore the product data used in this project via the **Fake Store API**, which serves as a mock backend for testing and development.  
+
+- **API Endpoint**: [Fake Store API](https://fakestoreapi.com/products)  
+- **Documentation**: [API Documentation](https://fakestoreapi.com/docs)  
+
+## Demo API
+
+
 
 ## Features
 
