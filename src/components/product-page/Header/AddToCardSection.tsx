@@ -11,7 +11,7 @@ const AddToCardSection = ({ data }: { data: Product }) => {
   return (
     <div className="w-full p-4 md:p-2 z-10 flex items-center justify-between sm:justify-start md:justify-center border-t md:border-none border-black/5">
       {/* Adjust layout for mobile (fixed) and desktop (relative) */}
-      <div className="w-full md:relative flex items-center justify-between">
+      <div className="w-full md:relative md:flex md:items-center md:justify-between">
         {/* Cart Counter */}
         <CartCounter onAdd={setQuantity} onRemove={setQuantity} />
 
