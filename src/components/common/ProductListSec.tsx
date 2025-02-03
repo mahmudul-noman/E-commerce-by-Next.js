@@ -30,7 +30,7 @@ const ProductListSec = ({ title, data, viewAllLink }: ProductListSecProps) => {
       </div>
 
       {viewAllLink && (
-        <div className="w-full mt-6 md:mt-9">
+        <div className="w-full mt-5 md:mt-9">
           <Link
             href={viewAllLink}
             className="inline-block px-[54px] py-4 border rounded-full hover:bg-black hover:text-white text-black transition-all font-medium text-sm sm:text-base border-black/10"
